@@ -8,6 +8,21 @@
     <link rel="stylesheet" href="styl_1.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Portal dla wędkarzy</h1>
+    </header>
+    <main>
+        <section class="left">
+            <h2>Ryby drapieżne naszych wód</h2>
+            <!-- script here --> 
+        </section>
+        <section class="right">
+            <img src="ryba1.jpg" alt="Sum">
+            <a href="kwerendy.txt">Pobierz kwerendy</a>
+        </section>
+    </main>
+    <footer>
+        <p>Stronę wykonał: 00000000000</p>
+    </footer>
 </body>
 </html>

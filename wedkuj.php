@@ -18,7 +18,7 @@
         </section>
         <section class="right">
             <img src="ryba1.jpg" alt="Sum">
-            <a href="kwerendy.txt">Pobierz kwerendy</a>
+            <a href="kwerendy.txt" download>Pobierz kwerendy</a>
         </section>
     </main>
     <footer>

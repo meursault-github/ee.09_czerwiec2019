@@ -15,6 +15,16 @@
         <section class="left">
             <h2>Ryby drapieżne naszych wód</h2>
             <!-- script here --> 
+            <?php
+                $conn = mysqli_connect('localhost','root','','wedkowanie') or die;
+                $sql = "SELECT nazwa, wystepowanie FROM `ryby` WHERE styl_zycia=1";
+                $q = mysqli_query($conn,$sql);
+                $row = mysqli_fetch_row($q);
+                while($row = mysqli_fetch_row($q)){
+                    echo  $row[0] ." " ;
+                }  
+                mysqli_close($conn);
+            ?>
         </section>
         <section class="right">
             <img src="ryba1.jpg" alt="Sum">
